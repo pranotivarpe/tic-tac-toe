@@ -63,7 +63,6 @@ export default function App() {
     <div className="app">
       <header className="header">
         <h1 className="title">Tic‑Tac‑Toe Pro</h1>
-        <p className="tag">Built with React • Customized UI • Deployable</p>
       </header>
 
       <section className="controlBar">
@@ -145,8 +144,6 @@ export default function App() {
           </div>
         </div>
       )}
-
-      <footer className="footer">React + Vite • You got this 🚀</footer>
     </div>
   );
 }
