@@ -1,12 +1,51 @@
-# React + Vite
+# ❌⭕ Tic-Tac-Toe — React Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-Currently, two official plugins are available:
+A classic **Tic-Tac-Toe** game built with React. Two players take turns, the game detects wins and draws, and players can restart at any time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎮 **Two-Player Mode** — Play X vs O with a friend
+- 🏆 **Win Detection** — Automatically detects all winning combinations
+- 🤝 **Draw Detection** — Handles tie games gracefully
+- 🔄 **Restart** — Reset the board and play again
+- ⚡ **Vite Powered** — Instant dev server with hot module replacement
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| React 18 | UI and game state management |
+| Vite | Build tool |
+
+---
+
+## Project Structure
+
+```
+tic-tac-toe/
+├── src/
+│   ├── App.jsx           # Root component
+│   └── components/       # Game board, cell, status components
+├── index.html
+└── vite.config.js
+```
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/pranotivarpe/tic-tac-toe.git
+cd tic-tac-toe
+npm install
+npm run dev
+```
+
+Visit `http://localhost:5173`
